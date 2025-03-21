@@ -76,9 +76,43 @@ a {
     padding: 10px;
     left: 0px;
     right: 0px;
-    box-shadow: 0 0 10px -4px var(--couleur-ombre);
+    box-shadow: 0 0 10px -4px black;
     position: fixed;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;}
+    
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        right: 20px;
+    }
+    
+    .dropdown-child {
+        display: none;
+        background-color: blue;
+        min-width: 200px;
+    
+        position: absolute;
+        right:0;
+    }
+    
+    .dropdown-child a {
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid rgb(46, 0, 171);
+    }
+    .dropdown-child a:last-of-type{
+        border-bottom: none;
+    }
+    
+    .dropdown-child a:hover {
+        background-color: rgb(46, 0, 171);
+    }
+    
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
