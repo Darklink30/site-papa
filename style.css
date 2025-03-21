@@ -34,6 +34,8 @@ body {
     font-size: 16px;
     min-height: 250vh;
     color: var(--couleur-texte-principal);
+    width: 100%;
+
 }
 
 .logo {
@@ -46,11 +48,14 @@ body {
     display: flex;
     margin-left: 60px;
     height: 100px;
-    gap: 420px
-;
+    gap: 420px;
+
 }
 
 .saison {
     height: 150px;
     
+}
+a{
+    color: #000000;
 }
