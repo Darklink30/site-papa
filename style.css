@@ -1,25 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --couleur-fond-principal: #00ff2a;
+    --couleur-fond-principal-foncee: #003cff;
+    --couleur-fond-text: rgb(251, 251, 251);
+    --couleur-texte-principal: #000000;
+    --couleur-ombre: rgb(49, 49, 49);
+}
+
 h1 {
+    scale: 2;
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight:bold;
+    font-weight: bold;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
 }
-h2{
+
+h2 {
     text-align: center;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
-    font-weight:bold;
+    font-weight: bold;
     font-style: normal;
-   }
-body{
-    background-color: rgb(199, 251, 251);
 }
-.logo{
+
+body {
+    background: var(--couleur-fond-principal);
+    background: linear-gradient(-10deg, var(--couleur-fond-principal) 0%, var(--couleur-fond-principal-foncee) 100%) no-repeat;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    min-height: 250vh;
+    color: var(--couleur-texte-principal);
+}
+
+.logo {
     display: flex;
     justify-content: center;
+    height: 300px;
+}
+
+.images-saison {
+    display: flex;
+    margin-left: 60px;
+    height: 100px;
+    gap: 340px
+;
+}
+
+.saison {
+    height: 150px;
+    
 }
