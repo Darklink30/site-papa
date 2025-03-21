@@ -9,6 +9,7 @@
 }
 
 h1 {
+    padding-top: 80px;
     scale: 2;
     text-align: center;
     font-family: "Dancing Script", cursive;
@@ -20,6 +21,7 @@ h1 {
 }
 
 h2 {
+    margin-bottom: 40px;
     text-align: center;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
@@ -28,6 +30,7 @@ h2 {
 }
 
 body {
+    margin-top: 20px;
     background: var(--couleur-fond-principal);
     background: linear-gradient(-10deg, var(--couleur-fond-principal) 0%, var(--couleur-fond-principal-foncee) 100%) no-repeat;
     font-family: Roboto, sans-serif;
@@ -42,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     height: 300px;
+    margin: 60px;
 }
 
 .images-saison {
@@ -56,6 +60,25 @@ body {
     height: 150px;
     
 }
-a{
+a {
     color: #000000;
 }
+.images-de-papa {
+    display: flex;
+    margin-left: 60px;
+    height: 100px;
+    gap: 420px;
+
+}
+.navbar {
+    margin-top: -20px;
+    background: rgb(4, 250, 7);
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0 0 10px -4px var(--couleur-ombre);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
